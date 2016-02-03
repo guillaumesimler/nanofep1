@@ -9,7 +9,22 @@
  	font-family: 'Lato', sans-serif;
  }
 
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+h1 {
+	font-size: 36px
+}
+
 h2 {
+	color:bcbbbb;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: bolder;
 	color:747704;
 }
 
@@ -89,7 +104,6 @@ h2 {
 }
 
 .text_box{
-	margin-left: 10px;
 	text-align: center;
 	}
 
