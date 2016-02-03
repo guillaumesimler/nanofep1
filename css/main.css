@@ -5,6 +5,9 @@
 	box-sizing: border-box;
  }
 
+ *{
+ 	font-family: 'Lato', sans-serif;
+ }
 
 h2 {
 	color:747704;
@@ -12,9 +15,11 @@ h2 {
 
 /* framework */ 
 .grid {
-    margin: 0 auto;
+   	margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    border-left: 10px;
+    border-right: 10px;
 }
 
 .row {
@@ -83,20 +88,10 @@ h2 {
 	text-align: right;
 }
 
-.main-body {
-	min-width: 100%
-}
-
-.footer{
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .text_box{
-
+	margin-left: 10px;
 	text-align: center;
-	max-width: 400px;}
+	}
 
 
 
