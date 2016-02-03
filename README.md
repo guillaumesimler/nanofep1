@@ -10,3 +10,5 @@ Project 1 Front End Dev Nanodegree: PORTFOLIO
 4.  "grid" will contain the version with a grid as described in Lesson 2 of Intro to ...
 
 5. "my_version" will contain my final version
+
+6. Bugs on line 8/9, 17 & 30, 54 & 92
