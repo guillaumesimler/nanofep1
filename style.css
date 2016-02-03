@@ -1,12 +1,22 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 
-body {
 	font-family: "Verdana";
+
 }
 
 h2 {
 	color:747704;
 }
 
+.header{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	}
 .logo{
 	text-align: left;
 }
@@ -15,9 +25,21 @@ h2 {
 	text-align: right;
 }
 
-.text_box{
-	text-align: center;
+
+.footer{
+	display: -webkit-flex;
+	display: flex;
+
+	flex-wrap: wrap;
 }
+
+.text_box{
+
+	margin: 10px;
+	text-align: center;
+	max-width: 420px;
+
+	}
 
 
 
