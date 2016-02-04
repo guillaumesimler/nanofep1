@@ -7,8 +7,8 @@ Project 1 Front End Dev Nanodegree: PORTFOLIO
 
 3. "master" will comprise the Udacity version
 
-4.  "grid" will contain the version with a grid as described in Lesson 2 of Intro to ...
+4.  "grid" contained the version with a grid as described in Lesson 2 of Intro to ... and was merged after commit 
 
 5. "my_version" will contain my final version
 
-6. Bugs on line 8/9, 17 & 30, 54 & 92
+6. used to be bugs on line 8/9, 17 & 30, 54 & 92 (solved on Feb4) 
