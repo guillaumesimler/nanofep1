@@ -28,6 +28,10 @@ h3 {
 	color:747704;
 }
 
+article{
+    text-align: center;
+}
+
 /* framework */ 
 .grid {
    	margin: 0 auto;
@@ -102,14 +106,5 @@ h3 {
 .header_text{
 	text-align: right;
 }
-
-.text_box{
-	text-align: center;
-    /* line has only an effecton the furthermost right box and on the texts - i.e. the figures don't care much about the margin, 
-    as if they were in a different class
-    margin:10px;
-    */
-	}
-
 
 
