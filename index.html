@@ -5,12 +5,77 @@
 <head>
 	<meta charset="utf-8">
 	<title>Guillaume's Portfolio </title>
-	
-	<!--- this line below is linked to the bug -->
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:300'>
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
 </head>
+
+<!-- Modal --> 
+	<!-- Modal Project 1 Placeholder-->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+	<div class="modal-dialog"> 
+		<div class="modal-content"> 
+			<div class="modal-header"> 
+				<h4 class="modal-title" id="myModalLabel">Project 1 Placeholder</h4> 
+			</div> 
+			
+			<div class="modal-body text-center"> 
+				<img class="img-responsive center-block img-resize" src="images/udacity_app.jpg"> 
+				This was my first project in this class. I learned a lot about HTML and CSS. 
+			</div> 
+
+			<div class="modal-footer"> 
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- Modal Project 2 Placeholder-->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+	<div class="modal-dialog"> 
+		<div class="modal-content"> 
+			<div class="modal-header"> 
+				<h4 class="modal-title" id="myModalLabel">Project 2 Placeholder</h4> 
+			</div> 
+			
+			<div class="modal-body text-center"> 
+				<img class="img-responsive center-block img-resize" src="images/udacity_flower.jpg"> 
+				This was my second project in this class. I learned even more about HTML and CSS. 
+			</div> 
+
+			<div class="modal-footer"> 
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- Modal Project 3 Placeholder-->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+	<div class="modal-dialog"> 
+		<div class="modal-content"> 
+			<div class="modal-header"> 
+				<h4 class="modal-title" id="myModalLabel">Project 3 Placeholder</h4> 
+			</div> 
+			
+			<div class="modal-body text-center"> 
+				<img class="img-responsive center-block img-resize" src="images/udacity_sky.jpg"> 
+				This was my third project in this class. I learned even more than I expected about HTML and CSS. 
+			</div> 
+
+			<div class="modal-footer"> 
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+			</div>
+		</div>
+	</div>
+</div>
 
 <body>
 
@@ -37,7 +102,7 @@
 
 		<section class="row text-center">
 			<article class="col-md-4">
-				<img class="img-responsive center-block img-resize" src="images/udacity_app.jpg" alt="Image Project 1">
+				<img class="img-responsive center-block img-resize" src="images/udacity_app.jpg" alt="Image Project 1" data-toggle="modal" data-target="#project1">
 				<h3>Project 1 Placeholder</h3>
 				<p>
 					<br>
@@ -48,7 +113,7 @@
 			</article>
 
 			<article class="col-md-4">
-				<img class="img-responsive center-block img-resize" src="images/udacity_flower.jpg" alt="Image Project 2">
+				<img class="img-responsive center-block img-resize" src="images/udacity_flower.jpg" alt="Image Project 2" data-toggle="modal" data-target="#project2">
 				<h3>Project 2 Placeholder</h3>
 				<p>
 					<br>
@@ -58,7 +123,7 @@
 			</article>
 
 			<article class="col-md-4">
-				<img class="img-responsive center-block img-resize" src="images/udacity_sky.jpg" alt="Image Project 3">
+				<img class="img-responsive center-block img-resize" src="images/udacity_sky.jpg" alt="Image Project 3" data-toggle="modal" data-target="#project3">
 					<h3>Project 3 Placeholder</h3>
 					<p>
 						<br>
