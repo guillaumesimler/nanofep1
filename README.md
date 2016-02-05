@@ -11,4 +11,6 @@ Project 1 Front End Dev Nanodegree: PORTFOLIO
 
 5. "my_version" will contain my final version
 
-6. used to be bugs on line 8/9, 17 & 30, 54 & 92 (solved on Feb4) 
+6. Bugs will not be reported any longer in the readme. Please look at their status in Github's issue session
+
+7. Impressum and privacy pages were added in "/legal" as it is (nearly) a legal obligation for live websites in Germany (where I live)
