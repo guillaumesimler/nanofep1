@@ -28,11 +28,9 @@ h3 {
 	color: #747704;
 }
 
-
-
-/* addional classes */
-
-.img-resize{
-    max-width: 90%;
+img, object, video{
+	max-width: 100%;
 }
-    
+   
+/* Additional CSS*/
+
