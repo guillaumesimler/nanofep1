@@ -34,3 +34,15 @@ img, object, video{
    
 /* Additional CSS*/
 
+.touch-size{
+	min-width: 48px;
+	min-height: 48px;
+}
+
+	/*adapated to Navbar breakpoint*/
+
+@media screen and (max-width: 768px) {
+	.design-adapt{
+		display: none;
+	}
+}
