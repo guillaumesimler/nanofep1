@@ -47,6 +47,12 @@ img, object, video {
 .go-right{
 	padding-right: 40px;
 }
+	/*otherwise crushed by the footer, which needs to be seen if the website is online, as it is (i)
+	hosted in Germany and (ii) I am German resident - German law enforced by trolling lawyers */
+.min-distance{
+	margin-bottom: 100px;
+}
+
 	/*adapated to Navbar breakpoint*/
 
 @media screen and (max-width: 768px) {

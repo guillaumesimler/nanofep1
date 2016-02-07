@@ -14,6 +14,11 @@
 	<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+		<!--Add <picture> for Safari -->
+	<script type="text/javascript">// Picture element HTML5 shiv
+    document.createElement( "picture" ); </script>
+  	<script type="text/javascript" src="js/picturefil.min.js" async></script>
+
 
 </head>
 
@@ -29,7 +34,7 @@
 				
 				<div class="modal-body text-center"> 
 					<picture>
-						<source media="(min-width: 400px)" srcset="images/project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
+						<source media="(min-width: 400px)" srcset="images/guillaume_project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
 						<img class="img-responsive center-block" src="images/guillaume_project1-400_1x.jpg" srcset="images/guillaume_project1-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="View from a hill top in the Zittauer Gebirge near Ceska Lipa (CZ)">
 					</picture>
 					This was my first project in this class. I learned a lot about HTML and CSS. 
@@ -52,7 +57,7 @@
 				
 				<div class="modal-body text-center"> 
 					<picture>
-						<source media="(min-width: 400px)" srcset="images/project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
+						<source media="(min-width: 400px)" srcset="images/guillaume_project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
 						<img class="img-responsive center-block" src="images/guillaume_project2-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project2-400_1x.jpg 1x" alt="View over the Baronnies in the South of France">
 					</picture>
 				</div> 
@@ -74,8 +79,8 @@
 				
 				<div class="modal-body text-center"> 
 					<picture>
-						<source media="(min-width: 400px)" srcset="images/project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
-						<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project2-400_3x.jpg 2x, images/guillaume_project1-400_3x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden">
+						<source media="(min-width: 400px)" srcset="images/guillaume_project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
+						<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden">
 					</picture>
 					This was my third project in this class. I learned even more than I expected about HTML and CSS. 
 				</div> 
@@ -98,8 +103,8 @@
 				
 				<div class="modal-body text-center"> 
 					<picture>
-						<source media="(min-width: 400px)" srcset="images/project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
-						<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_3x.jpg 2x, images/guillaume_project4-400_3x.jpg 1x" alt="the Italian transalpine path, GTA, near the French border">
+						<source media="(min-width: 400px)" srcset="images/guillaume_project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
+						<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_2x.jpg 2x, images/guillaume_project4-400_1x.jpg 1x" alt="The Italian transalpine path, GTA, near the French border">
 						</picture>	
 					This was my third project in this class. I learned even more than I expected about HTML and CSS. 
 				</div> 
@@ -194,7 +199,7 @@
 			<article id="project-1" class="col-lg-6">
 
 				<picture>
-					<source media="(min-width: 400px)" srcset="images/project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
+					<source media="(min-width: 400px)" srcset="images/guillaume_project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
 					<img class="img-responsive center-block" src="images/guillaume_project1-400_1x.jpg" srcset="images/guillaume_project1-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="View from a hill top in the Zittauer Gebirge near Ceska Lipa (CZ)" data-toggle="modal" data-target="#project1">
 				</picture>
 
@@ -213,7 +218,7 @@
 			<article  id="project-2" class="col-lg-6">
 
 				<picture>
-					<source media="(min-width: 400px)" srcset="images/project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
+					<source media="(min-width: 400px)" srcset="images/guillaume_project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
 					<img class="img-responsive center-block" src="images/guillaume_project2-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project2-400_2x.jpg 1x" alt="View over the Baronnies in the South of France" data-toggle="modal" data-target="#project2">
 				</picture>
 
@@ -235,14 +240,14 @@
 			</section>
 		</section >
 
-		<section class="row text-center">
+		<section class="row text-center min-distance">
 
 			<!-- Description of PROJECT 3 . .... -->
 
 			<article  id="project-3" class="col-lg-6">
 				<picture>
-					<source media="(min-width: 400px)" srcset="images/project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
-					<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project2-400_3x.jpg 2x, images/guillaume_project3-400_3x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden" data-toggle="modal" data-target="#project3">
+					<source media="(min-width: 400px)" srcset="images/guillaume_project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project3-400_2x.jpg 2x, images/guillaume_project3-400_1x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden" data-toggle="modal" data-target="#project3">
 				</picture>
 
 				<h3>Project 3 Placeholder</h3>
@@ -258,8 +263,8 @@
 		
 			<article  id="project-4" class="col-lg-6">
 				<picture>
-					<source media="(min-width: 400px)" srcset="images/project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
-					<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_3x.jpg 2x, images/guillaume_project4-400_3x.jpg 1x" alt="the Italian transalpine path, GTA, near the French border" data-toggle="modal" data-target="#project4">
+					<source media="(min-width: 400px)" srcset="images/guillaume_project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_2x.jpg 2x, images/guillaume_project4-400_1x.jpg 1x" alt="On the Italian transalpine path, GTA, near the French border" data-toggle="modal" data-target="#project4">
 				</picture>	
 
 				<h3>Project 4 Placeholder</h3>
@@ -274,7 +279,7 @@
 
 
 
-		<footer class="container text-center">	
+		<footer class="container text-center">
 			<nav class="navbar navbar-default navbar-fixed-bottom">
 	
 				<div class="row">
