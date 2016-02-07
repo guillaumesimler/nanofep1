@@ -5,7 +5,7 @@
 	box-sizing: border-box;
  }
 
- *{
+ * {
  	font-family: 'Lato', sans-serif;
  }
 
@@ -28,18 +28,18 @@ h3 {
 	color: #747704;
 }
 
-img, object, video{
+img, object, video {
 	max-width: 100%;
 }
    
 /* Additional CSS*/
 
-.touch-size{
+.touch-size {
 	min-width: 48px;
 	min-height: 48px;
 }
 
-.logo{
+.logo {
 	padding: 20px;
 }
 
@@ -51,11 +51,9 @@ img, object, video{
 	}
 
 	
-	.logo{
+	.logo {
 		max-height:25%;
 		max-width: 25%;
-		-webkit-transition: 0.5s;
-		transition: 0.5s;
 	}
 
 }
