@@ -28,7 +28,10 @@
 				</div> 
 				
 				<div class="modal-body text-center"> 
-					<img class="img-responsive center-block" src="images/udacity_app-400w.jpg" alt="Project 1"> 
+					<picture>
+						<source media="(min-width: 400px)" srcset="images/project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
+						<img class="img-responsive center-block" src="images/guillaume_project1-400_1x.jpg" srcset="images/guillaume_project1-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="View from a hill top in the Zittauer Gebirge near Ceska Lipa (CZ)">
+					</picture>
 					This was my first project in this class. I learned a lot about HTML and CSS. 
 				</div> 
 
@@ -48,8 +51,10 @@
 				</div> 
 				
 				<div class="modal-body text-center"> 
-					<img class="img-responsive center-block" src="images/udacity_flower-400w.jpg" alt="Image Project 2" > 
-					This was my second project in this class. I learned even more about HTML and CSS. 
+					<picture>
+						<source media="(min-width: 400px)" srcset="images/project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
+						<img class="img-responsive center-block" src="images/guillaume_project2-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project2-400_1x.jpg 1x" alt="View over the Baronnies in the South of France">
+					</picture>
 				</div> 
 
 				<div class="modal-footer"> 
@@ -68,7 +73,10 @@
 				</div> 
 				
 				<div class="modal-body text-center"> 
-					<img class="img-responsive center-block" src="images/udacity_sky-400w.jpg" alt="Project 3"> 
+					<picture>
+						<source media="(min-width: 400px)" srcset="images/project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
+						<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project2-400_3x.jpg 2x, images/guillaume_project1-400_3x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden">
+					</picture>
 					This was my third project in this class. I learned even more than I expected about HTML and CSS. 
 				</div> 
 
@@ -89,7 +97,10 @@
 				</div> 
 				
 				<div class="modal-body text-center"> 
-					<img class="img-responsive center-block" src="images/udacity_sky-400w.jpg" alt="Project 4"> 
+					<picture>
+						<source media="(min-width: 400px)" srcset="images/project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
+						<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_3x.jpg 2x, images/guillaume_project4-400_3x.jpg 1x" alt="the Italian transalpine path, GTA, near the French border">
+						</picture>	
 					This was my third project in this class. I learned even more than I expected about HTML and CSS. 
 				</div> 
 
@@ -104,8 +115,10 @@
 
 	<div class="container">	
 		<header class="row">
+
+			<!--!!! Replace the logo with an SVG ASAP, currently not availble (for free) !!!-->
 			<div class="col-lg-2">
-				<img class="img-responsive logo" src="images/udacity_logo.jpg" alt="Udacity Logo">
+				<img class="img-responsive logo" src="images/guillaume_logo-400w.jpg" alt="Guillaume's logo: G like Green Horn">
 			</div>
 
 			<div class="col-lg-10 text-right">
@@ -157,7 +170,14 @@
 		<section class="row" id="current_projects">
 			<section class="col-lg-12">
 				<hr>
-				<img class="img-responsive design-adapt" src="images/image_html-400w.jpg" srcset="images/image_html-1200w.jpg 1200w, images/image_html-600w.jpg 600w, images/image_html-400w.jpg 400w" alt="Html code">
+
+				<!-- !!! The picture block will be copied , pasted and adapted for any image. However only the main image will have the 1200px line, in the other cases it will be overkill as the container size for 
+				the largest grid -lg- is  1170px and 1170 /2 < 600  -->
+				<picture>
+					<source media="(min-width: 600px)" srcset="images/guillaume_main-1200_2x.jpg 2x, images/guillaume_main-1200_1x.jpg 1x"> 
+					<source media="(min-width: 400px)" srcset="images/guillaume_main-600_2x.jpg 2x, images/guillaume_main-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_main-400_1x.jpg" srcset="images/guillaume_main-400_2x.jpg 2x, images/guillaume_main-400_1x.jpg 1x" alt="Calanques between Marseille and Cassis">
+				</picture>
 			</section>
 		</section >
 
@@ -169,9 +189,15 @@
 			</section>
 		</section >
 
+				<!-- Description of PROJECT 1 . .... -->
 		<section class="row text-center">
 			<article id="project-1" class="col-lg-6">
-				<img class="img-responsive center-block" src="images/udacity_app-400w.jpg" alt="Image Project 1" data-toggle="modal" data-target="#project1">
+
+				<picture>
+					<source media="(min-width: 400px)" srcset="images/project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_project1-400_1x.jpg" srcset="images/guillaume_project1-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="View from a hill top in the Zittauer Gebirge near Ceska Lipa (CZ)" data-toggle="modal" data-target="#project1">
+				</picture>
+
 				<h3>Project 1 Placeholder</h3>
 				<p>
 					<br>
@@ -181,8 +207,16 @@
 				</p>
 			</article>
 
+
+				<!-- Description of PROJECT 2 . .... -->
+
 			<article  id="project-2" class="col-lg-6">
-				<img class="img-responsive center-block" src="images/udacity_flower-400w.jpg" alt="Image Project 2" data-toggle="modal" data-target="#project2">
+
+				<picture>
+					<source media="(min-width: 400px)" srcset="images/project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_project2-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project2-400_2x.jpg 1x" alt="View over the Baronnies in the South of France" data-toggle="modal" data-target="#project2">
+				</picture>
+
 				<h3>Project 2 Placeholder</h3>
 				<p>
 					<br>
@@ -202,24 +236,38 @@
 		</section >
 
 		<section class="row text-center">
+
+			<!-- Description of PROJECT 3 . .... -->
+
 			<article  id="project-3" class="col-lg-6">
-				<img class="img-responsive center-block" src="images/udacity_sky-400w.jpg" alt="Image Project 3" data-toggle="modal" data-target="#project3">
-					<h3>Project 3 Placeholder</h3>
-					<p>
-						<br>
-						<a href = "https://github.com/guillaumesimler/udacity-reflection">https://github.com/guillaumesimler/udacity-reflection</a>
-					<!-- Text place holder for project description-->
-					</p>
+				<picture>
+					<source media="(min-width: 400px)" srcset="images/project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project2-400_3x.jpg 2x, images/guillaume_project3-400_3x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden" data-toggle="modal" data-target="#project3">
+				</picture>
+
+				<h3>Project 3 Placeholder</h3>
+				<p>
+					<br>
+					<a href = "https://github.com/guillaumesimler/udacity-reflection">https://github.com/guillaumesimler/udacity-reflection</a>
+				<!-- Text place holder for project description-->
+				</p>
 			</article>
+
+
+			<!-- Description of PROJECT 4 . .... -->
 		
 			<article  id="project-4" class="col-lg-6">
-				<img class="img-responsive center-block" src="images/udacity_sky-400w.jpg" alt="Image Project 4" data-toggle="modal" data-target="#project4">
-					<h3>Project 4 Placeholder</h3>
-					<p>
-						<br>
-						<a href = "https://github.com/guillaumesimler/udacity-reflection">https://github.com/guillaumesimler/udacity-reflection</a>
-					<!-- Text place holder for project description-->
-					</p>
+				<picture>
+					<source media="(min-width: 400px)" srcset="images/project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
+					<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_3x.jpg 2x, images/guillaume_project4-400_3x.jpg 1x" alt="the Italian transalpine path, GTA, near the French border" data-toggle="modal" data-target="#project4">
+				</picture>	
+
+				<h3>Project 4 Placeholder</h3>
+				<p>
+					<br>
+					<a href = "https://github.com/guillaumesimler/udacity-reflection">https://github.com/guillaumesimler/udacity-reflection</a>
+				<!-- Text place holder for project description-->
+				</p>
 			</article>
 		</section>
 
