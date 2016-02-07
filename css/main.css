@@ -43,6 +43,9 @@ img, object, video {
 	padding: 20px;
 }
 
+.go-right{
+	padding-right: 10px;
+}
 	/*adapated to Navbar breakpoint*/
 
 @media screen and (max-width: 768px) {
