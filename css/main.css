@@ -7,7 +7,7 @@
  }
 
  * {
- 	font-family: 'Lato', sans-serif;
+	font-family: 'Righteous', cursive;
  }
 
 hr {
@@ -17,16 +17,17 @@ hr {
 
 h1 {
 	font-size: 36px;
+	color:#92BB4E;
 }
 
-h2 {
-	color:#bcbbbb;
+h2 {font-size: 32px;
+	color:#868383;
 }
 
 h3 {
 	font-size: 28px;
 	font-weight: bolder;
-	color: #747704;
+	color: #663817;
 }
 
 img, object, video {
@@ -68,6 +69,7 @@ img, object, video {
 
 @media screen and (max-width: 1200px) {
 	.logo {
+
 		max-height: 200px;
 		max-width: 200px;
 	}
