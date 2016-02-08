@@ -1,8 +1,7 @@
-Project 1 Front End Dev Nanodegree: PROJECT PORTFOLIO
-
-
 -----
-Docummentation - Project Description
+Project 1 Front End Dev Nanodegree: PROJECT PORTFOLIO
+-----
+Docummntation - Project Description
 -----
 
 This project is part of the Udacity FEND. The aim of the project is to build a developer portfolio to summarize the projectS I madIt was written by Guillaume Simler (guillaume.simler@gmail.com) in Feb. 2016 in accordance to the student's code of honor. 
