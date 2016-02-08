@@ -1,16 +1,27 @@
-Project 1 Front End Dev Nanodegree: PORTFOLIO
+Project 1 Front End Dev Nanodegree: PROJECT PORTFOLIO
 
 
-1. the aim of the project is to build a developer portfolio to summarize the project I made
+-----
+Docummentation - Project Description
+-----
 
-2. the intial plan is to build at least two branches: 
+This project is part of the Udacity FEND. The aim of the project is to build a developer portfolio to summarize the projectS I madIt was written by Guillaume Simler (guillaume.simler@gmail.com) in Feb. 2016 in accordance to the student's code of honor. 
 
-3. "master" will comprise the Udacity version
 
-4.  "grid" contained the version with a grid as described in Lesson 2 of Intro to ... It was started with commit 193c280664a9f13f1d52b94a3e5640c50006a8d0 and was merged with  after commit ccfb642153943b0559d1992804ed7eeb8347c069 
+-----
+Used external modules
+-----
 
-5. "my_version" will contain my final version
+1. Twitter's Bootstrap
+2. Google fonts
+3. Picturefill
 
-6. Bugs will not be reported any longer in the readme. Please look at their status in Github's issue session
+----
+Discussions: Summarry of the comments
+----
 
-7. Impressum and privacy pages were added in "/legal" as it is (nearly) a legal obligation for live websites in Germany (where I live)
+
+1. index.hmtl: The logo should be replaced by an SVG (vector graphic) instead of the jpg (raster) used. I found no SVG (for free) at that time, so the JPG will do the job as such.
+2. index.html: The "srcset" used could be more elegant. It is once embedded in a source, than an image. It works but I would need to optimize it.
+3. index.html: There is a mixture of classes in the "project" containers. The col-md and col-lg are used. Currently the first should nihilales the second -bootstrap doc-, it is rather a plan for a future. Should there be more projects, I might put more projects per row on the lg than on md. For instance 3 projects per rows on large screens and two on medium: class="col-md-6 col-lg-4" 
+4. index.html, main.cass, impressum.html, privacy.html: The site is also published in the web (http://www.simler.eu/). It has legal consequences as (i) it is hosted in Germany and (ii) I am a German resident. This explains the bottom navbar (always visible), the "impressum" and "privacy" html files and the specific classes in main.css
