@@ -16,7 +16,7 @@ Used external modules
 3. Picturefill
 
 ----
-Discussions: Summarry of the comments
+Discussions: Summary of the comments
 ----
 
 
