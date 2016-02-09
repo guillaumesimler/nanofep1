@@ -3,25 +3,24 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	background-color: 
- }
+}
 
- * {
+* {
 	font-family: 'Righteous', cursive;
- }
+}
 
 hr {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px 0;
 	}
 
 h1 {
 	font-size: 36px;
-	color:#92BB4E;
+	color: #92bb4e;
 }
 
-h2 {font-size: 32px;
-	color:#868383;
+h2 {
+	font-size: 32px;
+	color: #868383;
 }
 
 h3 {
@@ -29,10 +28,12 @@ h3 {
 	color: #663817;
 }
 
-img, object, video {
+img, 
+object, 
+video {
 	max-width: 100%;
 }
-   
+
 /* Additional CSS*/
 
 .touch-size {
@@ -44,7 +45,7 @@ img, object, video {
 	padding: 20px;
 }
 
-.go-right{
+.go-right {
 	padding-right: 40px;
 }
 	/*otherwise crushed by the footer, which needs to be seen if the website is online, as it is (i)
@@ -56,8 +57,10 @@ img, object, video {
 	/*adapated to Navbar breakpoint*/
 
 @media screen and (max-width: 768px) {
-	h1, h2, h3 {
-	font-size: 100%;
+	h1, 
+	h2, 
+	h3 {
+		font-size: 100%;
 	}
 
 	.logo {
@@ -68,7 +71,6 @@ img, object, video {
 
 @media screen and (max-width: 1200px) {
 	.logo {
-
 		max-height: 200px;
 		max-width: 200px;
 	}
