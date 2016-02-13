@@ -42,8 +42,20 @@ video {
 }
 
 .logo {
-	padding: 20px;
+	padding: 10px 0 0 0;
 }
+
+.logo-header {
+	color: #92bb4e;
+	font-size: 200%;
+	font-weight: bold;
+}
+.logo-caption {
+	color: #663817;
+	font-size: 120%;
+}
+
+
 
 .go-right {
 	padding-right: 40px;
@@ -59,14 +71,13 @@ video {
 @media screen and (max-width: 768px) {
 	h1, 
 	h2, 
-	h3 {
+	h3,
+	.logo-caption,
+	.logo-header {
 		font-size: 100%;
 	}
 
-	.logo {
-		max-height: 150px;
-		max-width: 150px;
-	}
+
 }
 
 @media screen and (max-width: 1200px) {
