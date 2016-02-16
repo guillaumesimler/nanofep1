@@ -14,6 +14,8 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    	<!-- More on helper.js in the class -->
+    <script type="text/javascript" src="js/mainpageHelper.js"></script>
 		<!--Add <picture> for Safari -->
 	<script type="text/javascript">// Picture element HTML5 shiv
     document.createElement( "picture" ); </script>
@@ -23,126 +25,9 @@
 </head>
 
 <body>
-	<!-- Modal --> 
-		<!-- Modal Project 1 Placeholder-->
-	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true"> 
-		<div class="modal-dialog"> 
-			<div class="modal-content"> 
-				<div class="modal-header"> 
-					<h4 class="modal-title" id="myModalLabel1">"About me"</h4> 
-				</div> 
-				
-				<div class="modal-body"> 
-					<picture>
-						<source media="(min-width: 400px)" srcset="images/guillaume_project1-600_2x.jpg 2x, images/guillaume_project1-600_1x.jpg 1x">
-						<img class="img-responsive center-block" src="images/guillaume_project1-400_1x.jpg" srcset="images/guillaume_project1-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="View from a hill top in the Zittauer Gebirge near Ceska Lipa (CZ)">
-					</picture>
-					<p>This is the current pre-project of FEND. It is a great way to start. It grants you a fast confidence in HTML. It is neither too difficult nor too easy.</p>
-					<br>
-					<p class="text-center">A perfect start!</p>
-				</div> 
-
-				<div class="modal-footer"> 
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
-				</div>
-			</div>
-		</div>
-	</div>
-
-		<!-- Modal Project 2 Placeholder-->
-	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true"> 
-		<div class="modal-dialog"> 
-			<div class="modal-content"> 
-				<div class="modal-header"> 
-					<h4 class="modal-title" id="myModalLabel2">The project portfolio</h4> 
-				</div> 
-				
-				<div class="modal-body"> 
-					<picture>
-						<source media="(min-width: 400px)" srcset="images/guillaume_project2-600_2x.jpg 2x, images/guillaume_project2-600_1x.jpg 1x">
-						<img class="img-responsive center-block" src="images/guillaume_project2-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project2-400_1x.jpg 1x" alt="View over the Baronnies in the South of France">
-					</picture>
-
-					<p><em>Madamina, il catalogo è questo [...] In Iatlia seicento e quaranta, In Lamagna duecento e trentuna, Cento in Francia, in Turchia novantuna, Ma in Ispagna son già mille e tre.</em></p>
-					<br>
-					<p>I'd be happy to have as many project as Don Giovanni had lovers. It is that big yet.</p>
-					<br>
-					<p>The project was a great dive into HTML and CSS, especially in responsive design. We learned a lot, we tried a lot (look at the amounts of commits)</p>
-					<br>
-					<p class="text-center">The beginning of serious things !!!</p>
-				</div> 
-
-				<div class="modal-footer"> 
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
-				</div>
-			</div>
-		</div>
-	</div>
-
-		<!-- Modal Project 3 Placeholder-->
-	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true"> 
-		<div class="modal-dialog"> 
-			<div class="modal-content"> 
-				<div class="modal-header"> 
-					<h4 class="modal-title" id="myModalLabel3">The "Bib" project</h4> 
-				</div> 
-				
-				<div class="modal-body"> 
-					<picture>
-						<source media="(min-width: 400px)" srcset="images/guillaume_project3-600_2x.jpg 2x, images/guillaume_project3-600_1x.jpg 1x">
-						<img class="img-responsive center-block" src="images/guillaume_project3-400_1x.jpg" srcset="images/guillaume_project2-400_2x.jpg 2x, images/guillaume_project1-400_1x.jpg 1x" alt="Somewhere on the Kungsleden, the King's way, in North Sweden">
-					</picture>
-					
-					<p>Bib is the short form of <em>bibliothèque</em> or library in French and there is a great one in Uchaux (FR).</p>
-					<br>
-					<p>It is managed by an incredible group of young seniors who will rob you all your predjudice about grey hairs. And they need a website, but not just a website</p>
-					<br>
-					<p>They need the classic information blog-like website, with a booking option for their awsome events, a view of their catalogue, accounts for their users.</p>
-					<br>
-					<p>Everything will need to be easy to maintain and to be modular as these ladies are pushing for a Fablab !!! And I am willing to give them my share of support</p>
-					<br>
-					<p class="text-center">An awsome pro-bono project which will follow me in my Nanodegrees !!</p>
-				</div> 
-
-				<div class="modal-footer"> 
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-			<!-- Modal Project 4 Placeholder-->
-	<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true"> 
-		<div class="modal-dialog"> 
-			<div class="modal-content"> 
-				<div class="modal-header"> 
-					<h4 class="modal-title" id="myModalLabel4">Code name "Vulcan"</h4> 
-				</div> 
-				
-				<div class="modal-body"> 
-					<picture>
-						<source media="(min-width: 400px)" srcset="images/guillaume_project4-600_2x.jpg 2x, images/guillaume_project4-600_1x.jpg 1x">
-						<img class="img-responsive center-block" src="images/guillaume_project4-400_1x.jpg" srcset="images/guillaume_project4-400_2x.jpg 2x, images/guillaume_project4-400_1x.jpg 1x" alt="The Italian transalpine path, GTA, near the French border">
-						</picture>	
-
-					<p>Well I can't tell you much here. Otherwise <em>I would need to kill you</em>. And this would not only be unethical but also uneconomical.</p>
-					<br>
-					<p>It will deal with big data, machine learning and an old industry</p>
-					<br>
-					<p class="text-center">!!! Top secret !!!</p> 
-				</div> 
-
-				<div class="modal-footer"> 
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- Main HTML --> 
 
-	<div class="container">	
+	<div id="main-html" class="container">	
 		<header class="row">
 
 			<!--!!! Replace the logo with an SVG ASAP, currently not availble (for free) !!!-->
@@ -328,9 +213,11 @@
 	
 	</div>
 
-	
+<!-- Load the builder -->
+<script type="text/javascript" src="js/mainpageBuilder.js"></script>
 
 </body>
 
 
 </html>
+
