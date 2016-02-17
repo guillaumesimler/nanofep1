@@ -41,7 +41,7 @@ var projects ={
 		'imageAlt': imageAlt2,
 		'description': projectDescription2,
 		'slogan': 'The beginning of serious things !!!',
-		'caption': 'Well it&#39; me!! (if you access the site via the web)',
+		'caption': 'Well it&#39;s me!! (if you access the site via the web)',
 		'url': 'https://github.com/guillaumesimler/nanofep1' 		
 	},
 	{
@@ -94,15 +94,22 @@ projects.modalBuilder = function() {
 		formatedmodalBody = formatedmodalBody.replace(data, project.name);
 
 		var formatedmodalImage = HTMLmodalImage.replace(/%data%/g, project.image);
+		formatedmodalImage = formatedmodalImage.replace(/%index%/g, index);
 		var formatedmodalDescription = project.description;
 		var formatedmodalSlogan = HTMLmodalSlogan.replace(data, project.slogan);
 
 		var target = '#target' + index;
 
 		$(formatedmodalBody).insertBefore($('#main-html'));
-		$(target).append(formatedmodalImage);		
+		$(target).append(formatedmodalImage);
+
 		$(target).append(formatedmodalDescription);
 		$(target).append(formatedmodalSlogan);
+
+		target= $(target).find('modalImage' + index);
+
+		target.attr("alt", project.imageAlt);
+
 
 		index +=1;
 
@@ -135,25 +142,16 @@ projects.mainBuilder = function() {
 		var formatedmainArticle=HTMLmainArticle.replace('%index%', index);
 		var formatedmainArticle=formatedmainArticle.replace('%size%', sizexs);
 		var formatedmainArticle=formatedmainArticle.replace('%size%', sizemd);
-		section.append(formatedmainArticle);
-		
-		index +=1;
-	}) ;
-
-	index=1;
-
-	projects.projects.forEach(function(project){
-			//check which section to use depending on the project type
-		var formatedmainImage=HTMLmainImage.replace('%index%', index);
-
+		var formatedmainImage=HTMLmainImage.replace(/%index%/g, index);
 		formatedmainImage = formatedmainImage.replace(/%data%/g, project.image);
 
 		var formatedmainTitle = HTMLmainTitle.replace(data, project.name);
 		var formatedmainCaption = HTMLmainCaption.replace(data, project.caption);
 		var formatedmainUrl = HTMLmainUrl.replace(/%data%/g, project.url);
 
-		var target = $('#project-'+index);
+		section.append(formatedmainArticle);
 
+		target = section.find('#project-'+index);
 		target.append(formatedmainImage);
 		target.append(formatedmainTitle)
 		target.append(formatedmainCaption);
@@ -176,11 +174,8 @@ projects.counter = function(_counted) {
 		};
 		
 	});
-
 	return _output; 
-
 };
-
 
 
 
