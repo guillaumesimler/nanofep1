@@ -94,7 +94,7 @@ projects.modalBuilder = function() {
 		formatedmodalBody = formatedmodalBody.replace(data, project.name);
 
 		var formatedmodalImage = HTMLmodalImage.replace(/%data%/g, project.image);
-		formatedmodalImage = formatedmodalImage.replace(/%index%/g, index);
+		formatedmodalImage = formatedmodalImage.replace('%alt%', project.imageAlt);
 		var formatedmodalDescription = project.description;
 		var formatedmodalSlogan = HTMLmodalSlogan.replace(data, project.slogan);
 
@@ -105,11 +105,6 @@ projects.modalBuilder = function() {
 
 		$(target).append(formatedmodalDescription);
 		$(target).append(formatedmodalSlogan);
-
-		target= $(target).find('modalImage' + index);
-
-		target.attr("alt", project.imageAlt);
-
 
 		index +=1;
 
@@ -144,6 +139,7 @@ projects.mainBuilder = function() {
 		var formatedmainArticle=formatedmainArticle.replace('%size%', sizemd);
 		var formatedmainImage=HTMLmainImage.replace(/%index%/g, index);
 		formatedmainImage = formatedmainImage.replace(/%data%/g, project.image);
+		formatedmainImage = formatedmainImage.replace('%alt%', project.imageAlt);
 
 		var formatedmainTitle = HTMLmainTitle.replace(data, project.name);
 		var formatedmainCaption = HTMLmainCaption.replace(data, project.caption);
